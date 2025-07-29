@@ -17,11 +17,13 @@
 <!-- 
 	<mapping class="com.learn.hiber.Employee.Employee"/>
 	<mapping class="com.OneToOneRelation.task.Person"/>
- <mapping class="com.OneToOneRelation.task.AadharCard"/>
+ 	<mapping class="com.OneToOneRelation.task.AadharCard"/>
+ 	<mapping class="com.OneToManyRelation.task.Person"/>
+ 	<mapping class="com.OneToManyRelation.task.Bike"/>
  -->
  
- <mapping class="com.OneToManyRelation.task.Person"/>
- <mapping class="com.OneToManyRelation.task.Bike"/>
+ <mapping class="com.ManyToManyRelation.task.Tech"/>
+ <mapping class="com.ManyToManyRelation.task.Trainer"/>
  
 </session-factory>
 </hibernate-configuration>
