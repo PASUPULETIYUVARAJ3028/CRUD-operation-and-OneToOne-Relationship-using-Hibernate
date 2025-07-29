@@ -16,10 +16,12 @@
 
 <!-- 
 	<mapping class="com.learn.hiber.Employee.Employee"/>
+	<mapping class="com.OneToOneRelation.task.Person"/>
+ <mapping class="com.OneToOneRelation.task.AadharCard"/>
  -->
  
- <mapping class="com.OneToOneRelation.task.Person"/>
- <mapping class="com.OneToOneRelation.task.AadharCard"/>
+ <mapping class="com.OneToManyRelation.task.Person"/>
+ <mapping class="com.OneToManyRelation.task.Bike"/>
  
 </session-factory>
 </hibernate-configuration>
